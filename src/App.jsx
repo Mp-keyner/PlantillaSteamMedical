@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <Nav/>
       En vivo desde el Sr Paolo
-      aqui estubo Ana
+      aqui estubo Paolo
     </div>
   )
 }
