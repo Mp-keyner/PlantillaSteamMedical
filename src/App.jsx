@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div>
       <Nav/>
+      En vivo desde el Sr Paolo
     </div>
   )
 }
