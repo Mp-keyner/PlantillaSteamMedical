@@ -4,9 +4,9 @@ import Nav from './components/Nav'
 const App = () => {
   return (
     <div>
-      <Nav/>
+      <Nav />
       En vivo desde el Sr Paolo
-      aqui No estubo Paolo
+      aqui No estuvo Paolo
     </div>
   )
 }
