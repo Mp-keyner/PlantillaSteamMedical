@@ -1,15 +1,16 @@
 import React from 'react'
-import Nav from './components/Nav'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Layout from './components/Layout/'
 import Login from './pages/Login'
 
 const App = () => {
   return (
-    <div>
-      <Nav/>
-      En vivo desde el Sr Paolo
-      aqui No estubo Paolo
-      <Login />
-    </div>
+    <BrowserRouter>
+    <Routes>
+        <Route path='/Login' element={<Login/>} />
+        <Route path='/' element={<Layout/>} />
+    </Routes>
+   </BrowserRouter>
   )
 }
 
