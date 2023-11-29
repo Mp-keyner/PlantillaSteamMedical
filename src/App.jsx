@@ -11,7 +11,7 @@ const App = () => {
       <Route path='/' element={<Layout/>} />
     </Routes>
     </BrowserRouter>
-  )
+   )
 }
 
 export default App
