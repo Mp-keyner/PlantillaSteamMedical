@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
         <Routes>
-        <Route path='/' element={<Citas/>} />
+        <Route path='/' element={<MainPages/>} />
         </Routes>
     </>
   )
