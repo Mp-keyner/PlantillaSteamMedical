@@ -1,14 +1,12 @@
-import React from 'react'
-import {Route, Routes} from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import MainPages from '../pages/MainPages'
-
 
 const Layout = () => {
   return ( 
     <>
-    <Routes>
-      <Route path='/' element={<MainPages/>}/>
-    </Routes>
+        <Routes>
+        <Route path='/' element={<MainPages/>} />
+        </Routes>
     </>
   )
 }
