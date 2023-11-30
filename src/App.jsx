@@ -1,6 +1,6 @@
 import React from 'react'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import Layout from './components/Layout/'
+import Layout from './components/Layout'
 import Login from './pages/Login'
 
 const App = () => {
